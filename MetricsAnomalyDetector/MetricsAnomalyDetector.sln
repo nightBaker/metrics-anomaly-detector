@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector", "MetricsAnomalyDetector\MetricsAnomalyDetector\MetricsAnomalyDetector.csproj", "{75FCAE20-6599-8942-B9FD-71E255ECB467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.Client", "MetricsAnomalyDetector\MetricsAnomalyDetector.Client\MetricsAnomalyDetector.Client.csproj", "{91093D71-DBE0-F0AA-81D7-F8BA599489F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.AppHost", "MetricsAnomalyDetector.AppHost\MetricsAnomalyDetector.AppHost.csproj", "{102FD0FC-0C11-4DF5-B29D-B1C1AFFBAD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.ServiceDefaults", "MetricsAnomalyDetector.ServiceDefaults\MetricsAnomalyDetector.ServiceDefaults.csproj", "{28FDAE1B-98D7-B970-8B73-00EEBA6D5465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.Domain", "MetricsAnomalyDetector.Domain\MetricsAnomalyDetector.Domain.csproj", "{7345E2CF-F8B0-47FC-8D49-1676C198839B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.Application", "MetricsAnomalyDetector.Application\MetricsAnomalyDetector.Application.csproj", "{28B19CAB-28BE-468D-9495-EABD5BF588DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75FCAE20-6599-8942-B9FD-71E255ECB467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FCAE20-6599-8942-B9FD-71E255ECB467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FCAE20-6599-8942-B9FD-71E255ECB467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FCAE20-6599-8942-B9FD-71E255ECB467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91093D71-DBE0-F0AA-81D7-F8BA599489F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91093D71-DBE0-F0AA-81D7-F8BA599489F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91093D71-DBE0-F0AA-81D7-F8BA599489F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91093D71-DBE0-F0AA-81D7-F8BA599489F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102FD0FC-0C11-4DF5-B29D-B1C1AFFBAD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102FD0FC-0C11-4DF5-B29D-B1C1AFFBAD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102FD0FC-0C11-4DF5-B29D-B1C1AFFBAD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102FD0FC-0C11-4DF5-B29D-B1C1AFFBAD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FDAE1B-98D7-B970-8B73-00EEBA6D5465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FDAE1B-98D7-B970-8B73-00EEBA6D5465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FDAE1B-98D7-B970-8B73-00EEBA6D5465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FDAE1B-98D7-B970-8B73-00EEBA6D5465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7345E2CF-F8B0-47FC-8D49-1676C198839B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7345E2CF-F8B0-47FC-8D49-1676C198839B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7345E2CF-F8B0-47FC-8D49-1676C198839B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7345E2CF-F8B0-47FC-8D49-1676C198839B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B19CAB-28BE-468D-9495-EABD5BF588DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B19CAB-28BE-468D-9495-EABD5BF588DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B19CAB-28BE-468D-9495-EABD5BF588DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B19CAB-28BE-468D-9495-EABD5BF588DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96EE67D-8A26-49F7-BE2A-60EB962D9443}
+	EndGlobalSection
+EndGlobal
