@@ -5,10 +5,10 @@ namespace MetricsAnomalyDetector.Application
 {
     public class AnomalyDetectionService
     {
-        private readonly ICommandRepository<PredictorInfo> _predictors;
+        private readonly ICommandRepository<AnomalyAnalayzer> _predictors;
         private readonly ICommandRepository<MetricStorage> _metricStorages;
 
-        public AnomalyDetectionService(ICommandRepository<PredictorInfo> predictors, ICommandRepository<MetricStorage> metricStorages)
+        public AnomalyDetectionService(ICommandRepository<AnomalyAnalayzer> predictors, ICommandRepository<MetricStorage> metricStorages)
         {
             _predictors = predictors;
             _metricStorages = metricStorages;
@@ -22,7 +22,7 @@ namespace MetricsAnomalyDetector.Application
 
         public async Task CreatePredictor(string name, string metricName, int metricStorageId)
         {
-            _predictors.Add(new PredictorInfo(name, metricName, metricStorageId));
+            _predictors.Add(new AnomalyAnalayzer(name, metricName, metricStorageId));
             await _predictors.UnitOfWork.SaveChangesAsync();
         }
     }

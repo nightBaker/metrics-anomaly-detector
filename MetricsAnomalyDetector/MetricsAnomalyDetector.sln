@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.Application", "MetricsAnomalyDetector.Application\MetricsAnomalyDetector.Application.csproj", "{28B19CAB-28BE-468D-9495-EABD5BF588DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAnomalyDetector.Persistence.Postgre", "MetricsAnomalyDetector.Persistence.Postgre\MetricsAnomalyDetector.Persistence.Postgre.csproj", "{6DB257CA-1B02-496D-B2F0-5D51F45A238B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{28B19CAB-28BE-468D-9495-EABD5BF588DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28B19CAB-28BE-468D-9495-EABD5BF588DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28B19CAB-28BE-468D-9495-EABD5BF588DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB257CA-1B02-496D-B2F0-5D51F45A238B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB257CA-1B02-496D-B2F0-5D51F45A238B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB257CA-1B02-496D-B2F0-5D51F45A238B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB257CA-1B02-496D-B2F0-5D51F45A238B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

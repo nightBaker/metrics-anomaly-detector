@@ -1,5 +1,8 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddProject<Projects.MetricsAnomalyDetector>("metricsanomalydetector");
+var postgres = builder.AddPostgres("postgres").WithPgAdmin();
+var postgresdb = postgres.AddDatabase("postgresdb");
+
+builder.AddProject<Projects.MetricsAnomalyDetector>("metricsanomalydetector").WithReference(postgresdb);
 
 builder.Build().Run();

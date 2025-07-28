@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\MetricsAnomalyDetector.Persistence.Postgre\MetricsAnomalyDetector.Persistence.Postgre.csproj" />
     <ProjectReference Include="..\..\MetricsAnomalyDetector.ServiceDefaults\MetricsAnomalyDetector.ServiceDefaults.csproj" />
     <ProjectReference Include="..\MetricsAnomalyDetector.Client\MetricsAnomalyDetector.Client.csproj" />
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.5" />
   </ItemGroup>
 

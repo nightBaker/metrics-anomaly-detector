@@ -1,5 +1,6 @@
 using MetricsAnomalyDetector.Client.Pages;
 using MetricsAnomalyDetector.Components;
+using MetricsAnomalyDetector.Persistence.Postgre;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services
     .AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddControllers();
+
+builder.AddNpgsqlDbContext<PostgreDbContext>(connectionName: "postgresdb");
 
 var app = builder.Build();
 

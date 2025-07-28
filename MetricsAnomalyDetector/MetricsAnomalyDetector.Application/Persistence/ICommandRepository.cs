@@ -11,7 +11,7 @@ namespace MetricsAnomalyDetector.Application.Repositories
     public interface ICommandRepository<T> where T : IAggregateRoot
     {
         IUnitOfWork UnitOfWork { get; }
-        Task<T> GetAsync(Expression<Func<T, bool>> predicate);
+        Task<T?> GetAsync(Expression<Func<T, bool>> predicate);
         void Add(T item);
         T Remove(T item);
         Task<List<T>> GetListAsync(Expression<Func<T, bool>> predicate);
